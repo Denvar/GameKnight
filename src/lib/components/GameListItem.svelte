@@ -25,7 +25,7 @@
 	<div class="px-6 py-4">
 		<p class="font-bold text-lg mb-2 line-clamp-2 text-gray-700">{game.name}</p>
 	</div>
-	<div class="px-6 py-4 mt-auto">
+	<div class="px-6 pb-4 mt-auto">
 		<div class="flex flex-row pt-2 justify-between">
 			<p class="flex flex-row text-gray-700 text-sm">
 				<svg
