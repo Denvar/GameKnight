@@ -12,7 +12,7 @@
 	<div class=" dark:bg-gray-900 bg-slate-50 min-h-screen pb-8">
 		<NavBar {section} />
 		<div class="flex flex-col items-center">
-			<div class="p-8 max-w-screen-lg">
+			<div class="p-8 lg:max-w-screen-lg max-w-sm">
 				<slot />
 			</div>
 		</div>

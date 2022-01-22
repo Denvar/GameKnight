@@ -19,6 +19,16 @@
 		<li>
 			<a
 				sveltekit:prefetch
+				href="/friends"
+				class:border-b-4={section === 'friends'}
+				class="px-4 py-2 font-bold text-purple-600 hover:text-purple-900 dark:text-purple-400 dark:hover:text-purple-600 border-purple-400 hover:border-purple-400"
+			>
+				Friends
+			</a>
+		</li>
+		<li>
+			<a
+				sveltekit:prefetch
 				href="/about"
 				class:border-b-4={section === 'about'}
 				class="px-4 py-2 font-bold text-purple-600 hover:text-purple-900 dark:text-purple-400 dark:hover:text-purple-600 border-purple-400 hover:border-purple-400"
