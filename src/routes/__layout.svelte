@@ -4,7 +4,7 @@
 	import DarkModeToggle from '$lib/components/DarkModeToggle.svelte';
 	import '../app.css';
 
-	$: section = $page.path.split('/')[1];
+	$: section = $page.url.pathname.split('/')[1];
 	let darkMode = false;
 </script>
 

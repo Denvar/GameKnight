@@ -94,7 +94,7 @@ const _layout = (0, import_index_e8bdc45f.c)(($$result, $$props, $$bindings, slo
   let $$rendered;
   do {
     $$settled = true;
-    section = $page.path.split("/")[1];
+    section = $page.url.pathname.split("/")[1];
     $$rendered = `<div${(0, import_index_e8bdc45f.a)("class", `${darkMode ? "dark" : ""}`, 0)}><div class="${"dark:bg-gray-900 bg-slate-50 min-h-screen pb-8"}">${(0, import_index_e8bdc45f.v)(NavBar, "NavBar").$$render($$result, { section }, {}, {})}
 		<div class="${"flex flex-col items-center"}"><div class="${"p-8 lg:max-w-screen-lg max-w-sm"}">${slots.default ? slots.default({}) : ``}</div></div></div>
 	${(0, import_index_e8bdc45f.v)(DarkModeToggle, "DarkModeToggle").$$render($$result, { darkMode }, {
