@@ -1,0 +1,2 @@
+- [ ] Center game cards within grid space
+- [ ] Game list count not including filtered items
